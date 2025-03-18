@@ -1,0 +1,45 @@
+.comment-section {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#commentForm {
+    margin-bottom: 20px;
+}
+
+#commentForm input, #commentForm textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+#commentsContainer {
+    margin-top: 30px;
+    text-align: left;
+}
+
+.comment {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.comment img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.comment .content {
+    max-width: 80%;
+}
+
+.comment .content p {
+    margin: 0;
+}
